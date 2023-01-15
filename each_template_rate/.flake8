@@ -1,0 +1,2 @@
+[flake8]
+per-file-ignores=./each_template_rate/__init__.py:F401

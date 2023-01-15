@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "each-template-rate"
+version = "0.1.0"
+description = ""
+authors = ["sekine345 <sekine345@gmail.com>"]
+readme = "README.md"
+packages = [{include = "each_template_rate"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyyaml = "^6.0"
+pytest = "^7.2.1"
+flake8 = "^6.0.0"
+pylint = "^2.15.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
